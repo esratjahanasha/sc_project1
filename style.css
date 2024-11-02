@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+/* container er height ta choto krbo kivabe */
+
+.main-section{
+display:flex;
+justify-content: center;
+background-color:#f3e4d9;
+font-size: 14px; 
+color: #6f6468;
+}
+
+.container{
+    width: 45%;
+    background-color: white; 
+    /* border: 2px solid black; */
+    padding: 30px;
+    border-radius: 20px;
+    font-family: "Outfit", sans-serif;
+    margin: 60px;
+    }
+
+.banner-image{
+    width: 100%;
+}
+.banner-image img{
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+h1,h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: black;
+    font-size:40px;           /* //h1and h3 te default font-size ta rakhte chacci ?*/
+}
+h3{
+    color: #7a392c;
+    font-size:30px;            /*h1 h3 er default size ta rakhte chai ?*/
+}
+.description p{
+    padding:20px 0px 30px;
+}
+
+.preparation-list{
+    background-color: #fef6fc;
+    padding: 20px;
+    border-radius: 10px;
+}
+.preparation-list>span{
+    font-weight: bold;
+    color: purple;
+}
+.pl li{
+    color:purple;
+    padding: 3px; 
+}
+.pl{
+    margin-top: 10px;
+    margin-left: 25px;
+}
+ .h{
+    font-weight: bold;
+    color: black;
+}
+ .d{          
+     font-weight: normal; 
+     color: #6f6468;
+}
+
+.il li{
+    padding:5px 0px;
+    color: #7a392c;
+}
+.il{
+    list-style-position: inside;
+    margin:10px;
+    padding-bottom:10px;
+    color:#6f6468;
+}
+
+.ins >h3{
+    margin-bottom: 10px;
+}
+
+ol{
+    list-style-position: inside;
+    line-height: 1.5;
+    padding-bottom: 20px;
+}
+ol li{
+    color: #7a392c;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.table-details div{
+    margin-bottom: 10px;
+    }
+
+.table-details h3{
+margin: 20px 0px;
+}
+
+.table,tr{
+    width: 100%;
+ border-collapse: collapse;
+  border-collapse: collapse;
+  border-bottom: 1px solid gray; 
+ 
+}
+.table,td,th{
+padding:15px;
+}
+th{
+    color: #7a392c;
+}
